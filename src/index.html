@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Simples</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulário</h1>
+        <form action="index.php" method="POST">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="cel">Celular:</label>
+            <input type="text" id="cel" name="celular" required>
+
+            <label for="obs">Observação:</label>
+            <textarea id="obs" name="observacao" rows="7"></textarea>
+
+            <button type="submit">Enviar Dados</button>
+        </form>
+    </div>
+</body>
+</html>
